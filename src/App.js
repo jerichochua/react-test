@@ -1,12 +1,12 @@
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/react-test">
       <div className="container">
         <Switch>
           <Route path="/about">
